@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify , render_template
-from google import genai
+import google.generativeai as genai
 
 client = genai.Client(api_key="AIzaSyB4tiKtmwXia4yHRrE4b-AQT3MDb09yVSQ")
 
